@@ -1,0 +1,52 @@
+{
+  "name": "Codebase-Restify-Types",
+  "version": "0.1.0",
+  "description": "A back end project template using Typescript, Restify as a Node.js framework, and Redis for data caching.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -p . && node dist/server.js",
+    "dev": "nodemon server.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasimy-as/Codebase-Restify-Types.git"
+  },
+  "keywords": [],
+  "author": "Hasimy",
+  "license": "MIT",
+  "dependencies": {
+    "confidence": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "generic-pool": "^3.7.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.5",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0",
+    "redis": "^3.1.2",
+    "restify": "^8.5.1",
+    "uuid": "^3.4.0",
+    "validate.js": "^0.13.1",
+    "winston": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/confidence": "^1.4.30",
+    "@types/generic-pool": "^3.1.9",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/mongodb": "^3.6.11",
+    "@types/node": "^14.14.37",
+    "@types/passport": "^1.0.6",
+    "@types/passport-http": "^0.3.8",
+    "@types/redis": "^2.8.28",
+    "@types/restify": "^8.5.1",
+    "@types/uuid": "^8.3.0",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/hasimy-as/Codebase-Restify-Types/issues"
+  },
+  "homepage": "https://github.com/hasimy-as/Codebase-Restify-Types#readme"
+}
